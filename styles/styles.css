@@ -7,6 +7,11 @@ html {
  }
 
 body {
+	max-width: 31.25rem; /*Makes page mobile size only*/
+	margin: 0 auto;
+  }
+
+body {
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	font-weight: 400;
