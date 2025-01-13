@@ -357,3 +357,17 @@ html {
  *, *::before, *::after {
 	box-sizing: inherit;
  }
+
+ /* adjusts images and videos to stay within set width of body element */
+
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+ 
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
